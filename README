@@ -1,0 +1,6 @@
+In order to use the Google Feeds API, you will have to supply your own Google API Key in Index.html on line:
+<script src="https://www.google.com/jsapi?key=YOUR-KEY-HERE" type="text/javascript"></script>
+
+To get your own Google API Key, follow this link: http://code.google.com/apis/feed/v1/devguide.html#sign_up_for_an_api_key
+
+The stylesheet used is a modified version of the default one that is created when you create an MVC Site with Visual Studio.

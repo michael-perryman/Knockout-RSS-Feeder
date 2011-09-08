@@ -1,0 +1,149 @@
+﻿
+body {
+    background-color: #fff;
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+	padding: 15px;
+}
+
+a:link {
+    color: #034af3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #505abc;
+}
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #12eb87;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+input[type="text"], 
+input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1.2em;
+    color: #444;
+    width: 200px;
+}
+
+
+/* Styles for Knockout Test page
+-----------------------------------------------------------*/
+.mainDiv
+{
+    margin-top: 25px;
+    width: 960px;   
+}
+.loadFeed
+{
+    border: 1px solid gray;
+    background-color: silver;
+    color: black;    
+    padding: 5px;
+}
+.inputDiv label
+{
+    font-weight: bold;
+}
+.feedUrlInput
+{
+    width: 300px !important;    
+}
+.title
+{
+    font-size: 16px;    
+}
+.description
+{    
+    font-size: 13px;
+    font-style: italic;
+}    
+.link
+{
+    cursor: pointer;    
+}
+.feedList
+{
+    
+}
+.feedListItem
+{
+    list-style-type: none;
+    border: 1px dotted gray;  
+    margin-bottom: 10px;
+}
+.itemDate
+{
+    font-size: 11px;
+    font-style: italic;
+}
+.itemcontent:before 
+{
+    content: '"';
+}
+.itemcontent:after
+{
+    content: '"';
+}
+.itemcontent
+{
+   font-size: 18px;   
+}
+.morelink
+{
+    font-size: 14px;
+}
